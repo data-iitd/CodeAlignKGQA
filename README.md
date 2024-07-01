@@ -50,12 +50,12 @@ python -m Executor.executor_rule_kqapro 'exec' > 'log_filepath'
 #### WebQSP Dataset
 Check Syntactic Accuracy:
 ```bash
-python3 -m Executor.executor_rule_webQSP 'generated_KoPL_filepath' 'ground_KoPL_filepath' 'val' > 'log_filepath'
+python -m Executor.executor_rule_webQSP 'generated_KoPL_filepath' 'ground_KoPL_filepath' 'val' > 'log_filepath'
 ```
 
 Execute KoPL Programs:
 ```bash
-python3 -m Executor.executor_rule_webQSP 'generated_KoPL_filepath' 'ground_KoPL_filepath' 'exec' > 'log_filepath'
+python -m Executor.executor_rule_webQSP 'generated_KoPL_filepath' 'ground_KoPL_filepath' 'exec' > 'log_filepath'
 ```
 
 #### MetaQA Dataset
