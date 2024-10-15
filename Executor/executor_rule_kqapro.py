@@ -1,7 +1,7 @@
 from utils.value_class import ValueClass, comp, isOp
 from utils.misc import invert_dict
 from utils.find_closest import nearest_neigh, nearest_kv, nearest_neigh_by_id, calculate_cosine_similarity_opt_new
-from Program.executor_abalation_functinal_new import RuleExecutorFunctional
+from Executor.executor_abalation_functinal_new import RuleExecutorFunctional
 import os
 import json
 from collections import defaultdict
